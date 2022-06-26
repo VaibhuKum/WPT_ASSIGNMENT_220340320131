@@ -13,7 +13,7 @@ app.get('/getareaname', (req, resp) => {
         host: 'localhost',
         user: 'root',
         password: 'cdac',
-        database: 'nashik',
+        database: 'kolhapur',
         port: 3306
     }
     const conn = mysql.createConnection(dbobject);
